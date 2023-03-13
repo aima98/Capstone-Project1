@@ -42,8 +42,66 @@ header {
     display: none;
   }
 
-  .header-desktop2 {
-    display: none;
+  .header-two {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    top: 0;
+    clip-path: circle(0 at top right);
+    transition: clip-path ease-in-out 700ms;
+    z-index: 99;
+  }
+
+  .header-two.open {
+    clip-path: circle(250% at top right);
+  }
+
+  .header-two ul {
+    list-style: none;
+    padding: 24px;
+    margin-top: -20px;
+  }
+
+  .header-two li {
+    padding-block: 15px;
+    text-align: center;
+  }
+
+  .header-two li:nth-child(1) {
+    padding-top: 50px;
+  }
+
+  .header-two .menu-item {
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration-line: none;
+    color: #710879;
+    text-align: center; 
+  }
+
+  .nav-item1{
+    display: block;
+    border: 3px solid #6a1170b5;
+    padding: 12px 17px;
+  }
+
+  .header-two .concert {
+    transition: ease-in 200ms;
+    display: block;
+    color: #c872ce;
+  }
+
+  .close-btn {
+    display: block;
+    position: fixed;
+    height: 22px;
+    width: 33px;
+    border: none;
+    background: transparent;
+    margin-left: 8px;
+    margin-top: 11px;
   }
 
   .hamburger-btn {
