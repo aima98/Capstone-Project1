@@ -84,18 +84,17 @@ header {
   }
 
   .venue {
-    font-size: 1em;
+    font-size: 0.8em;
     font-weight: 500;
-    margin: -17px;
-    margin-left: 17px;
+    margin: -15px;
+    margin-left: -2px;
     max-width: 800px;
-    border: 3px solid white;
     padding: 20px;
-    margin-top: 11px;
+    margin-top: -14px;
   }
 
   .text {
-    font-size: 1em;
+    font-size: 0.9em;
     font-weight: 500;
     margin: -17px;
     margin-left: 17px;
@@ -123,9 +122,30 @@ header {
 
   .presentation h3 {
     display: block;
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: 800;
     margin-top: 22px;
     margin-left: 19px;
+    color: #dda7c7;
+  }
+
+  .schedule {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-image: url("./assets/img/Main-bg.png");
+  }
+
+  .schedule h3 {
+    color: #530459;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.5em;
+  }
+
+  .program img {
+    padding: 15px;
+    height: 60px;
+    width: auto;
   }
 }
