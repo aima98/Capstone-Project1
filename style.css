@@ -68,6 +68,11 @@ header {
     text-align: center;
   }
 
+  .partners li {
+    padding: 15px;
+    margin-top: -8px;
+  }
+
   .header-two li:nth-child(1) {
     padding-top: 50px;
   }
@@ -78,10 +83,10 @@ header {
     font-weight: 400;
     text-decoration-line: none;
     color: #710879;
-    text-align: center; 
+    text-align: center;
   }
 
-  .nav-item1{
+  .nav-item1 {
     display: block;
     border: 3px solid #6a1170b5;
     padding: 12px 17px;
@@ -220,6 +225,15 @@ header {
     margin-left: -5px;
   }
 
+  footer p {
+    color: #530459;
+    font-size: 0.7em;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    margin-right: 28px;
+    text-align: center;
+  }
+
   .schedule p {
     color: #530459;
     font-family: "Quicksand", sans-serif;
@@ -283,6 +297,12 @@ header {
   .gm-section hr {
     width: 50px;
     margin: auto;
+  }
+
+  footer img {
+    padding: 30px;
+    height: 140px;
+    width: auto;
   }
 
   .group-member img {
@@ -352,11 +372,6 @@ header {
     margin-top: 20px;
   }
 
-  .partners li {
-    padding: 15px;
-    margin-top: -8px;
-  }
-
   .partners img {
     height: 50px;
     width: 134px;
@@ -369,20 +384,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
-
-  footer img {
-    padding: 30px;
-    height: 140px;
-    width: auto;
-  }
-
-  footer p {
-    color: #530459;
-    font-size: 1.2em;
-    font-family: "Quicksand", sans-serif;
-    font-weight: bold;
-    margin-right: 28px;
   }
 
   .head-one {
@@ -470,11 +471,10 @@ header {
   }
 
   .about-concerts img {
-    border: 3px solid #c0b6d9;
-    height: 130px;
-  width: auto;
-  padding: 10px 90px;
-  margin-top: 15px;
+    height: 120px;
+    width: auto;
+    padding: 10px 90px;
+    margin-top: 15px;
   }
 
   .about-concerts p {
@@ -485,15 +485,15 @@ header {
   .past-events img {
     border: none;
     height: 151px;
-  width: 453px;
-  padding: 10px 90px;
-  margin-top: 15px;
+    width: 453px;
+    padding: 10px 90px;
+    margin-top: 15px;
   }
 
   .partners h3 {
     color: #d3d3d3;
     margin: -8px;
     padding-block: 18px 20px;
-    font-size: 1.0em;
+    font-size: 1em;
   }
 }
