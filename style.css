@@ -1,11 +1,11 @@
-@import "http://fonts.googleapis.com/css?family=Lato:400,700)";
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   outline: none;
-  font-family: "Lato", sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 body {
@@ -25,7 +25,7 @@ header {
   position: fixed;
 }
 
-@media screen and (min-width: 342px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .header-content {
     position: fixed;
     width: 100%;
@@ -38,25 +38,16 @@ header {
     z-index: 1001;
   }
 
-  .logo {
+  .header-desktop1 {
     display: none;
+  }
 
-    /* display: table-cell;
-    position: relative;
-    height: 45px;
-    width: 100%;
-    text-align: left;
-    font-size: 16px;
-    font-weight: 700;
-    color: rgb(250 245 247);
-    top: -18px;
-    left: 15px; */
+  .header-desktop2 {
+    display: none;
   }
 
   .hamburger-btn {
-    display: table-cell;
-    position: relative;
-    left: -144px;
+    display: block;
     width: 73px;
     height: 51px;
     background-image: url(./assets/img/hamburger-btn.png);
@@ -67,39 +58,74 @@ header {
     z-index: 1;
   }
 
-  .desktop-menu {
-    display: none;
-  }
-
-  .head-one {
-    display: none;
-  }
-
   .home {
-    width: 100%;
-    background-image: url(./assets/img/bg-mobile.png);
+    background-image: url(./assets/img/peakpx.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 100%;
-    top: 0;
-    left: 0;
+    background-size: cover;
+    background-position: left;
+    height: 100%;
+    width: 100%;
     min-width: 320px;
-    height: 177.5vw;
-    z-index: 1001;
+    padding: 60px 43px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    color: #d3d3d3;
   }
 
-  .world-tour {
-    position: relative;
+  .presentation {
+    display: block;
     width: 100%;
-    top: 10px;
-    left: 10px;
     padding-top: 10.69vw;
     padding-right: 0;
-    font-size: 16px;
-    font-style: italic;
-    line-height: 50px;
+    color: rgb(252, 252, 252);
+    margin-left: -10.25vw;
+  }
+
+  .venue {
+    font-size: 1em;
     font-weight: 500;
-    color: rgb(236, 159, 242);
-    margin-left: -1.25vw;
+    margin: -17px;
+    margin-left: 17px;
+    max-width: 800px;
+    border: 3px solid white;
+    padding: 20px;
+    margin-top: 11px;
+  }
+
+  .text {
+    font-size: 1em;
+    font-weight: 500;
+    margin: -17px;
+    margin-left: 17px;
+    max-width: 800px;
+    border: 3px solid white;
+    padding: 20px;
+    margin-top: 2px;
+  }
+
+  .presentation h1 {
+    display: block;
+    font-size: 1.7em;
+    font-weight: 800;
+    margin-top: -33px;
+    margin-left: 14px;
+  }
+
+  .presentation h2 {
+    display: block;
+    font-size: 2.5em;
+    font-weight: 800;
+    margin-top: 2px;
+    margin-left: 14px;
+  }
+
+  .presentation h3 {
+    display: block;
+    font-size: 1em;
+    font-weight: 800;
+    margin-top: 22px;
+    margin-left: 19px;
   }
 }
