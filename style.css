@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 * {
   margin: 0;
@@ -259,9 +259,241 @@ header {
     margin: 24px auto;
     text-decoration: none;
     color: #fff;
-    padding: 16px;
+    padding: 9px;
     background: #530459;
     margin-bottom: 30px;
     text-align: center;
+    width: 215px;
+  }
+
+  .gm-section {
+    padding: 20px;
+    display: block;
+  }
+
+  .gm-section h3 {
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.5em;
+    margin-top: 12px;
+    color: #530459;
+    margin-bottom: 15px;
+  }
+
+  .gm-section hr {
+    width: 50px;
+    margin: auto;
+  }
+
+  .group-member img {
+    padding: 10px;
+    height: 172px;
+    width: 188px;
+    margin-top: 46px;
+    margin-left: 8px;
+  }
+
+  .text-content {
+    padding-left: 1em;
+    margin-left: 189px;
+    margin-top: -188px;
+    margin-bottom: 20px;
+  }
+
+  .text-content hr {
+    width: 30px;
+    margin: 13px 1px;
+  }
+
+  .text-content h3 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.3em;
+    text-align: left;
+  }
+
+  .text-content .italic-text {
+    color: #dda7c7;
+    margin-top: 7px;
+  }
+
+  .text-content p {
+    font-size: 0.84em;
+    margin-top: 18px;
+  }
+
+  .partners {
+    background-color: #530459;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.5em;
+    margin-top: 50px;
+  }
+
+  .partners-title {
+    color: #d3d3d3;
+    margin: -8px;
+    padding-block: 18px 20px;
+  }
+
+  .partners hr {
+    width: 40px;
+    color: #d3d3d3;
+    margin: auto;
+  }
+
+  .partners ul {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+  }
+
+  .partners li {
+    padding: 15px;
+    margin-top: -8px;
+  }
+
+  .partners img {
+    height: 50px;
+    width: 134px;
+    background: transparent;
+  }
+
+  footer {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  footer img {
+    padding: 30px;
+    height: 140px;
+    width: auto;
+  }
+
+  footer p {
+    color: #530459;
+    font-size: 1.2em;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    margin-right: 28px;
+  }
+
+  .head-one {
+    display: none;
+  }
+
+  .about-section {
+    background-image: url(./assets/img/peakpx.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    min-width: 320px;
+    padding: 60px 43px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    color: #d3d3d3;
+  }
+
+  .about-section-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    color: #d3d3d3;
+  }
+
+  .about-section h1 {
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 25px;
+  }
+
+  .about-section h2 {
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+  }
+
+  .about-section .p {
+    text-align: center;
+    color: #192a62;
+    padding: 20px;
+    border: 3px solid #edb2d5;
+    margin-top: 30px;
+    background: #dda7c7;
+  }
+
+  .about-section p {
+    text-align: center;
+    color: #d3d3d3;
+    padding: 20px;
+    margin-top: 2px;
+  }
+
+  .about-concerts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 43px;
+  }
+
+  .about-concerts h2 {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.2em;
+    color: #530459;
+  }
+
+  .about-concerts hr {
+    width: 20px;
+  }
+
+  .about-concerts .mobile {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .about-concerts .desktop {
+    display: none;
+  }
+
+  .about-concerts img {
+    border: 3px solid #c0b6d9;
+    height: 130px;
+  width: auto;
+  padding: 10px 90px;
+  margin-top: 15px;
+  }
+
+  .about-concerts p {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .past-events img {
+    border: none;
+    height: 151px;
+  width: 453px;
+  padding: 10px 90px;
+  margin-top: 15px;
+  }
+
+  .partners h3 {
+    color: #d3d3d3;
+    margin: -8px;
+    padding-block: 18px 20px;
+    font-size: 1.0em;
   }
 }
