@@ -137,15 +137,73 @@ header {
     background-image: url("./assets/img/Main-bg.png");
   }
 
+  .schedule span {
+    width: 8%;
+    height: 4px;
+    border-radius: 4px;
+    background: #530459;
+    margin: 8px;
+  }
+
+  .schedule h2 {
+    color: #530459;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.3em;
+    margin: 12px;
+    margin-left: 13px;
+    margin-top: 17px;
+  }
+
   .schedule h3 {
     color: #530459;
     font-family: "Quicksand", sans-serif;
-    font-size: 1.5em;
+    font-size: 0.8em;
+    margin: 12px;
+    margin-left: -5px;
   }
 
-  .program img {
+  .schedule p {
+    color: #530459;
+    font-family: "Quicksand", sans-serif;
+    font-size: 0.9em;
+    margin: 8px;
+    margin-left: 0;
+    width: 156px;
+  }
+
+  .program {
+    margin-bottom: -3px;
+    display: flex;
+    align-items: center;
+    background: #edb2d5a8;
+    border-radius: 10px;
+    margin-top: 13px;
+  }
+
+  .img2 {
+    background-color: transparent;
     padding: 15px;
-    height: 60px;
+    height: 71px;
     width: auto;
+    margin-left: -7px;
+  }
+
+  .img1 {
+    background-color: transparent;
+    padding: 5px;
+    height: 68px;
+    width: auto;
+    margin-left: -4px;
+  }
+
+  .schedule a {
+    display: inline-block;
+    margin: 24px auto;
+    text-decoration: none;
+    color: #fff;
+    padding: 16px;
+    background: #530459;
+    margin-bottom: 30px;
+    text-align: center;
   }
 }
