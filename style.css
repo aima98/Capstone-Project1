@@ -42,6 +42,10 @@ header {
     display: none;
   }
 
+  .header-two .logo {
+    display: none;
+  }
+
   .header-two {
     background-color: #fff;
     position: fixed;
