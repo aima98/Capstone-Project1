@@ -1061,6 +1061,7 @@ header {
     align-items: center;
     gap: 20px;
     width: 100%;
+    justify-content: center;
   }
 
   .past-events .img1 {
