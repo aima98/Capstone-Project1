@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cocogoose:wght@700&display=swap');
+
+:root {
+  --primary-color: #ec5242;
+  --secondary-color: #272a31;
+  --tertiary-color: #d3d3d3;
+}
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   outline: none;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 body {
@@ -83,23 +90,18 @@ header {
 
   .header-two .menu-item {
     font-family: "Quicksand", sans-serif;
-    font-size: 18px;
+    font-size: 1.1em;
     font-weight: 400;
     text-decoration-line: none;
-    color: #710879;
+    color: var(--secondary-color);
     text-align: center;
   }
 
   .nav-item1 {
+    color: var(--primary-color);
     display: block;
-    border: 3px solid #6a1170b5;
     padding: 12px 17px;
-  }
-
-  .header-two .concert {
-    transition: ease-in 200ms;
-    display: block;
-    color: #c872ce;
+    border: 3px solid var(--primary-color);
   }
 
   .header-two .worldTour-logo {
@@ -109,7 +111,7 @@ header {
   .close-btn {
     display: block;
     position: fixed;
-    height: 22px;
+    height: 29px;
     width: 33px;
     border: none;
     background: transparent;
@@ -234,8 +236,8 @@ header {
   }
 
   footer p {
-    color: #530459;
-    font-size: 0.7em;
+    color: var(--secondary-color);
+    font-size: 0.8em;
     font-family: "Quicksand", sans-serif;
     font-weight: bold;
     margin-right: 28px;
@@ -298,7 +300,7 @@ header {
     font-family: "Quicksand", sans-serif;
     font-size: 1.5em;
     margin-top: 12px;
-    color: #530459;
+    color: var(--secondary-color);
     margin-bottom: 15px;
   }
 
@@ -335,22 +337,26 @@ header {
 
   .text-content h3 {
     font-family: "Quicksand", sans-serif;
-    font-size: 1.3em;
+    color: var(--secondary-color);
+    font-size: 1.2em;
     text-align: left;
   }
 
   .text-content .italic-text {
-    color: #dda7c7;
+    color: var(--primary-color);
     margin-top: 7px;
+    font-size: 0.84em;
   }
 
   .text-content p {
+    font-family: "Quicksand", sans-serif;
     font-size: 0.84em;
+    color: var(--secondary-color);
     margin-top: 18px;
   }
 
   .partners {
-    background-color: #530459;
+    background-color: var(--secondary-color);
     text-align: center;
     font-family: "Quicksand", sans-serif;
     font-size: 1.5em;
@@ -387,11 +393,11 @@ header {
   }
 
   footer {
-    width: 90%;
-    margin: 0 auto;
+    width: 60%;
+    margin: 0 58px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .head-one {
@@ -462,7 +468,7 @@ header {
     text-align: center;
     font-family: "Quicksand", sans-serif;
     font-size: 1.2em;
-    color: #530459;
+    color: var(--secondary-color);
   }
 
   .about-concerts hr {
@@ -472,6 +478,8 @@ header {
   .about-concerts .mobile {
     text-align: center;
     margin-top: 15px;
+    color: var(--secondary-color);
+    font-family: "Quicksand", sans-serif;
   }
 
   .about-concerts .desktop {
@@ -481,20 +489,45 @@ header {
   .about-concerts img {
     height: 120px;
     width: auto;
-    padding: 10px 90px;
     margin-top: 15px;
+    border: 3px solid var(--tertiary-color);
+    padding: 28px 38px;
   }
 
   .about-concerts p {
     text-align: center;
     margin-top: 15px;
+    color: var(--secondary-color);
+    font-family: "Quicksand", sans-serif;
   }
 
-  .past-events img {
+  .past-events {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .past-events .img1 {
+    background-position: center;
+    background-color: var(--primary-color);
+    background-blend-mode: multiply;
     border: none;
-    height: 151px;
-    width: 453px;
-    padding: 10px 90px;
+    height: 162px;
+    width: 259px;
+    padding: 9px 26px;
+    margin-top: 15px;
+  }
+
+  .past-events .img2 {
+    background-position: center;
+    background-color: var(--primary-color);
+    background-blend-mode: multiply;
+    border: none;
+    height: 162px;
+    width: 259px;
+    padding: 27px 4px;
     margin-top: 15px;
   }
 
@@ -593,7 +626,7 @@ header {
 
   .header-two li {
     display: inline-block;
-    padding: 10px;
+    padding: 7px;
   }
 
   .partners li {
@@ -606,20 +639,20 @@ header {
     font-size: 0.84em;
     font-weight: 400;
     text-decoration-line: none;
-    color: #710879;
+    color: var(--secondary-color);
     text-align: center;
   }
 
   .nav-item1 {
     display: block;
-    border: 3px solid #6a1170b5;
+    border: 3px solid var(--primary-color);
     padding: 12px 17px;
+    color: var(--primary-color);
   }
 
   .header-two .concert {
     transition: ease-in 200ms;
     display: block;
-    color: #c872ce;
   }
 
   .home {
@@ -733,7 +766,7 @@ header {
   }
 
   footer p {
-    color: #530459;
+    color: var(--secondary-color);
     font-size: 0.8em;
     font-family: "Quicksand", sans-serif;
     font-weight: bold;
@@ -811,6 +844,8 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
 
   .global-section h3 {
@@ -818,7 +853,7 @@ header {
     font-family: "Quicksand", sans-serif;
     font-size: 1.5em;
     margin-top: 12px;
-    color: #530459;
+    color: var(--secondary-color);
     margin-bottom: 15px;
   }
 
@@ -860,17 +895,19 @@ header {
   }
 
   .text-content .italic-text {
-    color: #dda7c7;
+    color: var(--primary-color);
     margin-top: 7px;
   }
 
   .text-content p {
+    max-width: 227px;
     font-size: 0.84em;
     margin-top: 18px;
+    font-family: "Quicksand", sans-serif;
   }
 
   .partners {
-    background-color: #530459;
+    background-color: var(--secondary-color);
     text-align: center;
     font-family: "Quicksand", sans-serif;
     font-size: 1.5em;
@@ -907,11 +944,11 @@ header {
   }
 
   footer {
-    width: 90%;
-    margin: 0 auto;
+    width: 50%;
+    margin: 0 233px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
   }
 
   .head-one {
@@ -987,7 +1024,7 @@ header {
     text-align: center;
     font-family: "Quicksand", sans-serif;
     font-size: 1.4em;
-    color: #530459;
+    color: var(--secondary-color);
   }
 
   .about-concerts hr {
@@ -1000,26 +1037,51 @@ header {
 
   .about-concerts .desktop {
     text-align: center;
+    font-family: "Quicksand", sans-serif;
   }
 
   .about-concerts img {
     height: 192px;
     width: auto;
-    padding: 10px 90px;
+    padding: 35px 113px;
     margin-top: 15px;
+    border: 3px solid var(--tertiary-color);
   }
 
   .about-concerts p {
     text-align: center;
     margin-top: 15px;
     font-size: 1.2em;
+    font-family: "Quicksand", sans-serif;
   }
 
-  .past-events img {
+  .past-events {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .past-events .img1 {
+    background-position: center;
+    background-color: var(--primary-color);
+    background-blend-mode: multiply;
     border: none;
-    height: 222px;
-    width: 626px;
-    padding: 10px 90px;
+    height: 212px;
+    width: 449px;
+    padding: 22px 99px;
+    margin-top: 15px;
+  }
+
+  .past-events .img2 {
+    background-position: center;
+    background-color: var(--primary-color);
+    background-blend-mode: multiply;
+    border: none;
+    height: 212px;
+    width: 449px;
+    padding: 52px 13px;
     margin-top: 15px;
   }
 

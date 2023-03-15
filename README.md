@@ -63,7 +63,7 @@ Linters
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-![screenshot](./assets/img/desktop_preview.PNG)
+![screenshot](./assets/img/desktop-preview.PNG)
 
 - [Live Demo Link](https://aima98.github.io/Capstone-Project1/)
 
